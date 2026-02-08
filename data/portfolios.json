@@ -1,0 +1,341 @@
+{
+  "metadata": {
+    "version": "1.1",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "lastUpdated": "2026-01-20T16:11:00Z",
+    "baseCurrency": "EUR",
+    "description": "Configuración de carteras de inversión en uranio, energía nuclear, minerales y renta fija"
+  },
+  "portfolios": {
+    "conservadora": {
+      "id": "conservadora",
+      "name": "Cartera Conservadora",
+      "emoji": "🛡️",
+      "budget": 1000,
+      "currency": "EUR",
+      "riskProfile": {
+        "level": "low",
+        "description": "Bajo riesgo / Renta fija",
+        "volatility": "3-4%",
+        "expectedReturn": "2.5-3.5%",
+        "maxDrawdown": "-2% a -4%",
+        "ter": "0.25%"
+      },
+      "holdings": [
+        {
+          "symbol": "ES10Y",
+          "allocation": 45,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "DE10Y",
+          "allocation": 25,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "USIG",
+          "allocation": 15,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "FER.MC",
+          "allocation": 8,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "RIO",
+          "allocation": 7,
+          "purchaseDate": "2026-01-01"
+        }
+      ]
+    },
+    "moderada": {
+      "id": "moderada",
+      "name": "Cartera Moderada",
+      "emoji": "⚖️",
+      "budget": 1000,
+      "currency": "EUR",
+      "riskProfile": {
+        "level": "medium",
+        "description": "Riesgo medio / Equilibrada",
+        "volatility": "8-10%",
+        "expectedReturn": "5-6.5%",
+        "maxDrawdown": "-12% a -18%",
+        "ter": "0.42%"
+      },
+      "holdings": [
+        {
+          "symbol": "ICLN",
+          "allocation": 15,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "CORP-IG",
+          "allocation": 20,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "FER.MC",
+          "allocation": 12,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "RR.L",
+          "allocation": 10,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "RIO",
+          "allocation": 10,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "NUCL",
+          "allocation": 18,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "KAP",
+          "allocation": 10,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "ACS.MC",
+          "allocation": 5,
+          "purchaseDate": "2026-01-01"
+        }
+      ]
+    },
+    "agresiva": {
+      "id": "agresiva",
+      "name": "Cartera Agresiva",
+      "emoji": "🚀",
+      "budget": 1000,
+      "currency": "EUR",
+      "riskProfile": {
+        "level": "high",
+        "description": "Alto riesgo / Máximo crecimiento",
+        "volatility": "18-25%",
+        "expectedReturn": "10-15%",
+        "maxDrawdown": "-35% a -55%",
+        "ter": "0.51%"
+      },
+      "holdings": [
+        {
+          "symbol": "NUCL",
+          "allocation": 30,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "CCJ",
+          "allocation": 12,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "KAP",
+          "allocation": 12,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "UUUU",
+          "allocation": 8,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "RIO",
+          "allocation": 10,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "ALB",
+          "allocation": 8,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "SQM",
+          "allocation": 8,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "BWXT",
+          "allocation": 6,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "RR.L",
+          "allocation": 4,
+          "purchaseDate": "2026-01-01"
+        }
+      ]
+    },
+    "nuclear": {
+      "id": "nuclear",
+      "name": "Cartera Nuclear",
+      "emoji": "☢️",
+      "budget": 1000,
+      "currency": "EUR",
+      "riskProfile": {
+        "level": "high",
+        "description": "Alto riesgo / Sector nuclear puro",
+        "volatility": "20-30%",
+        "expectedReturn": "12-18%",
+        "maxDrawdown": "-40% a -60%",
+        "ter": "0.55%"
+      },
+      "holdings": [
+        {
+          "symbol": "NUCL",
+          "allocation": 25,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "CCJ",
+          "allocation": 20,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "KAP",
+          "allocation": 20,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "UUUU",
+          "allocation": 15,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "BWXT",
+          "allocation": 10,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "RR.L",
+          "allocation": 10,
+          "purchaseDate": "2026-01-01"
+        }
+      ]
+    },
+    "minerales": {
+      "id": "minerales",
+      "name": "Cartera Minerales",
+      "emoji": "⛏️",
+      "budget": 1000,
+      "currency": "EUR",
+      "riskProfile": {
+        "level": "medium-high",
+        "description": "Riesgo medio-alto / Metales preciosos e industriales",
+        "volatility": "15-22%",
+        "expectedReturn": "8-12%",
+        "maxDrawdown": "-25% a -40%",
+        "ter": "0.35%"
+      },
+      "holdings": [
+        {
+          "symbol": "NEM",
+          "allocation": 8,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "GOLD",
+          "allocation": 4,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "KGC",
+          "allocation": 4,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "AEM",
+          "allocation": 4,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "GDX",
+          "allocation": 5,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "ANTO",
+          "allocation": 7,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "LUN",
+          "allocation": 7,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "FCX",
+          "allocation": 5,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "TECK",
+          "allocation": 5,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "COPX",
+          "allocation": 9,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "COPP",
+          "allocation": 2,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "PAAS",
+          "allocation": 5,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "FSM",
+          "allocation": 2,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "SCZ",
+          "allocation": 2,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "SIVR",
+          "allocation": 7,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "IMPLATS",
+          "allocation": 3,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "PPLT",
+          "allocation": 2,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "PALL",
+          "allocation": 6,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "HYDRO",
+          "allocation": 6,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "NOVL",
+          "allocation": 4,
+          "purchaseDate": "2026-01-01"
+        },
+        {
+          "symbol": "SSW",
+          "allocation": 2,
+          "purchaseDate": "2026-01-01"
+        }
+      ]
+    }
+  }
+}

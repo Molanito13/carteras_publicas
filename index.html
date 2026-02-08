@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gestión de carteras">
+    <title>📊 Portfolio Manager - Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <div class="app-container">
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 100 100" class="chart-icon">
+                        <rect x="10" y="60" width="15" height="30" fill="currentColor" opacity="0.6" />
+                        <rect x="30" y="40" width="15" height="50" fill="currentColor" opacity="0.8" />
+                        <rect x="50" y="25" width="15" height="65" fill="currentColor" />
+                        <rect x="70" y="45" width="15" height="45" fill="currentColor" opacity="0.7" />
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <h1>El Buffet del Guarro</h1>
+                    <span class="tagline">Nuclear y Minerales</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="home-content">
+            <section class="welcome-section">
+                <h2>Selecciona una categoría de inversión</h2>
+            </section>
+
+            <section class="category-grid">
+                <!-- Nuclear Section -->
+                <a href="nuclear/index.html" class="category-card nuclear-card">
+                    <div class="category-icon">☢️</div>
+                    <div class="category-info">
+                        <h3>Sector Nuclear</h3>
+                        <p>Empresas de uranio, tecnología nuclear y energía atómica</p>
+                        <div class="category-stats">
+                            <span class="stat-item">
+                                <span class="stat-number">3</span>
+                                <span class="stat-label">Carteras</span>
+                            </span>
+                        </div>
+                        <ul class="category-list">
+                            <li>🛡️ Cartera Conservadora</li>
+                            <li>⚖️ Cartera Moderada</li>
+                            <li>🚀 Cartera Agresiva</li>
+                        </ul>
+                    </div>
+                </a>
+
+                <!-- Minerals Section -->
+                <div class="category-card minerals-card">
+                    <div class="category-icon">⛏️</div>
+                    <div class="category-info">
+                        <h3>Sector Minerales</h3>
+                        <p>Metales preciosos e industriales: Oro, Cobre, Plata y más</p>
+                        <div class="category-stats">
+                            <span class="stat-item">
+                                <span class="stat-number">6</span>
+                                <span class="stat-label">Carteras</span>
+                            </span>
+                        </div>
+                        <div class="minerals-grid">
+                            <a href="minerales/oro.html" class="mineral-link gold">
+                                <span class="mineral-icon">🥇</span>
+                                <span>Oro</span>
+                            </a>
+                            <a href="minerales/cobre.html" class="mineral-link copper">
+                                <span class="mineral-icon">🔶</span>
+                                <span>Cobre</span>
+                            </a>
+                            <a href="minerales/plata.html" class="mineral-link silver">
+                                <span class="mineral-icon">⚪</span>
+                                <span>Plata</span>
+                            </a>
+                            <a href="minerales/platino.html" class="mineral-link platinum">
+                                <span class="mineral-icon">⬜</span>
+                                <span>Platino</span>
+                            </a>
+                            <a href="minerales/paladio.html" class="mineral-link palladium">
+                                <span class="mineral-icon">🔵</span>
+                                <span>Paladio</span>
+                            </a>
+                            <a href="minerales/aluminio.html" class="mineral-link aluminum">
+                                <span class="mineral-icon">🪶</span>
+                                <span>Aluminio</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WIP Section -->
+                <a href="wip/index.html" class="category-card wip-card">
+                    <div class="category-icon">🚧</div>
+                    <div class="category-info">
+                        <h3>WIP</h3>
+                        <p>Sectores en desarrollo: Defensa, Tecnología, IA y más</p>
+                        <div class="category-stats">
+                            <span class="stat-item">
+                                <span class="stat-number">5</span>
+                                <span class="stat-label">Sectores</span>
+                            </span>
+                        </div>
+                        <ul class="category-list">
+                            <li>🛡️ Defensa</li>
+                            <li>🤖 Robotica</li>
+                            <li>💻 Tecnología</li>
+                        </ul>
+                    </div>
+                </a>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Datos para fines informativos. No es asesoramiento financiero.</p>
+            <p>© 2026 Pim Pum</p>
+        </footer>
+    </div>
+</body>
+
+</html>

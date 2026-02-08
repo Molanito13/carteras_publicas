@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cartera de inversión en Platino - Mineras y ETFs">
+    <title>⬜ Cartera Platino - Portfolio Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <div class="app-container">
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon" style="background: linear-gradient(135deg, #e2e8f0, #94a3b8);">
+                    <svg viewBox="0 0 100 100" class="chart-icon" style="color: #1e293b;">
+                        <rect x="10" y="60" width="15" height="30" fill="currentColor" opacity="0.6" />
+                        <rect x="30" y="40" width="15" height="50" fill="currentColor" opacity="0.8" />
+                        <rect x="50" y="25" width="15" height="65" fill="currentColor" />
+                        <rect x="70" y="45" width="15" height="45" fill="currentColor" opacity="0.7" />
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <h1>Portfolio Manager</h1>
+                    <span class="tagline">Sector Minerales - Platino</span>
+                </div>
+            </div>
+            <a href="../index.html" class="nav-back">
+                ← Volver al inicio
+            </a>
+        </header>
+
+        <main class="page-content">
+            <section class="page-header">
+                <h2>⬜ Cartera de Platino</h2>
+                <p>Inversiones en mineras de platino y ETFs del sector</p>
+            </section>
+
+            <section class="portfolio-section active">
+                <div class="portfolio-header">
+                    <div class="portfolio-title">
+                        <span class="title-icon">⬜</span>
+                        <h3>Mineras y ETFs de Platino</h3>
+                    </div>
+                    <span class="risk-badge risk-medium">Riesgo Medio</span>
+                </div>
+                <div class="data-table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Nº</th>
+                                <th>Activo</th>
+                                <th>ISIN</th>
+                                <th>Tipo</th>
+                                <th>Sector</th>
+                                <th>Asignación</th>
+                                <th>TER/Comisión</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="col-number">1</td>
+                                <td class="col-name">Impala Platinum Holdings</td>
+                                <td class="col-ticker"><span class="ticker-badge platinum">ZAE000083648</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Platino</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>3.0%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 30%; background: #e2e8f0;"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">2</td>
+                                <td class="col-name">Sibanye Stillwater</td>
+                                <td class="col-ticker"><span class="ticker-badge platinum">ZAE000259701</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Platino</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>2.0%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 20%; background: #e2e8f0;"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">3</td>
+                                <td class="col-name">Anglo American Platinum</td>
+                                <td class="col-ticker"><span class="ticker-badge platinum">US03486T2024</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Platino</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>3.0%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 30%; background: #e2e8f0;"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">4</td>
+                                <td class="col-name">iShares Physical Platinum ETC</td>
+                                <td class="col-ticker"><span class="ticker-badge platinum">IE00B4LHWP62</span></td>
+                                <td class="col-type"><span class="type-badge type-etc">ETC</span></td>
+                                <td class="col-sector"><span class="sector-badge">Platino</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>2.0%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 20%; background: #e2e8f0;"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.18%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="minerals-nav">
+                <h4>Otras carteras de minerales:</h4>
+                <div class="minerals-grid">
+                    <a href="oro.html" class="mineral-link gold"><span
+                            class="mineral-icon">🥇</span><span>Oro</span></a>
+                    <a href="cobre.html" class="mineral-link copper"><span
+                            class="mineral-icon">🔶</span><span>Cobre</span></a>
+                    <a href="plata.html" class="mineral-link silver"><span
+                            class="mineral-icon">⚪</span><span>Plata</span></a>
+                    <a href="paladio.html" class="mineral-link palladium"><span
+                            class="mineral-icon">🔵</span><span>Paladio</span></a>
+                    <a href="aluminio.html" class="mineral-link aluminum"><span
+                            class="mineral-icon">🪶</span><span>Aluminio</span></a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Datos para fines informativos. No es asesoramiento financiero.</p>
+            <p>© 2026 Portfolio Manager</p>
+        </footer>
+    </div>
+
+    <style>
+        .minerals-nav {
+            margin-top: 30px;
+            padding: 25px;
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border-color);
+        }
+
+        .minerals-nav h4 {
+            margin-bottom: 15px;
+            color: var(--text-secondary);
+        }
+
+        .minerals-nav .minerals-grid {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+    </style>
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cartera de inversión en Plata - Mineras y ETFs">
+    <title>⚪ Cartera Plata - Portfolio Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <div class="app-container">
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon" style="background: linear-gradient(135deg, #94a3b8, #64748b);">
+                    <svg viewBox="0 0 100 100" class="chart-icon">
+                        <rect x="10" y="60" width="15" height="30" fill="currentColor" opacity="0.6" />
+                        <rect x="30" y="40" width="15" height="50" fill="currentColor" opacity="0.8" />
+                        <rect x="50" y="25" width="15" height="65" fill="currentColor" />
+                        <rect x="70" y="45" width="15" height="45" fill="currentColor" opacity="0.7" />
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <h1>Portfolio Manager</h1>
+                    <span class="tagline">Sector Minerales - Plata</span>
+                </div>
+            </div>
+            <a href="../index.html" class="nav-back">
+                ← Volver al inicio
+            </a>
+        </header>
+
+        <main class="page-content">
+            <section class="page-header">
+                <h2>⚪ Cartera de Plata</h2>
+                <p>Inversiones en mineras de plata y ETFs del sector</p>
+            </section>
+
+            <section class="portfolio-section active">
+                <div class="portfolio-header">
+                    <div class="portfolio-title">
+                        <span class="title-icon">⚪</span>
+                        <h3>Mineras y ETFs de Plata</h3>
+                    </div>
+                    <span class="risk-badge risk-medium">Riesgo Medio</span>
+                </div>
+                <div class="data-table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Nº</th>
+                                <th>Activo</th>
+                                <th>ISIN</th>
+                                <th>Tipo</th>
+                                <th>Sector</th>
+                                <th>Asignación</th>
+                                <th>TER/Comisión</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="col-number">1</td>
+                                <td class="col-name">Pan American Silver Corp</td>
+                                <td class="col-ticker"><span class="ticker-badge silver">CA6979001089</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Plata</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>4.5%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 30%; background: #94a3b8;"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">2</td>
+                                <td class="col-name">Fortuna Silver Mines</td>
+                                <td class="col-ticker"><span class="ticker-badge silver">CA3499421020</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Plata</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>2.0%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 13%; background: #94a3b8;"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">3</td>
+                                <td class="col-name">Santacruz Silver Mining</td>
+                                <td class="col-ticker"><span class="ticker-badge silver">CA80280U2056</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Plata</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>2.0%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 13%; background: #94a3b8;"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">4</td>
+                                <td class="col-name">iShares Physical Silver ETC</td>
+                                <td class="col-ticker"><span class="ticker-badge silver">IE00B4NCWG09</span></td>
+                                <td class="col-type"><span class="type-badge type-etc">ETC</span></td>
+                                <td class="col-sector"><span class="sector-badge">Plata</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>7.0%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 47%; background: #94a3b8;"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.30%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">5</td>
+                                <td class="col-name">Global X Silver Miners ETF</td>
+                                <td class="col-ticker"><span class="ticker-badge silver">IE000UL6CLP7</span></td>
+                                <td class="col-type"><span class="type-badge type-etf">ETF</span></td>
+                                <td class="col-sector"><span class="sector-badge">Plata</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>1.0%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 7%; background: #94a3b8;"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.65%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="minerals-nav">
+                <h4>Otras carteras de minerales:</h4>
+                <div class="minerals-grid">
+                    <a href="oro.html" class="mineral-link gold"><span
+                            class="mineral-icon">🥇</span><span>Oro</span></a>
+                    <a href="cobre.html" class="mineral-link copper"><span
+                            class="mineral-icon">🔶</span><span>Cobre</span></a>
+                    <a href="platino.html" class="mineral-link platinum"><span
+                            class="mineral-icon">⬜</span><span>Platino</span></a>
+                    <a href="paladio.html" class="mineral-link palladium"><span
+                            class="mineral-icon">🔵</span><span>Paladio</span></a>
+                    <a href="aluminio.html" class="mineral-link aluminum"><span
+                            class="mineral-icon">🪶</span><span>Aluminio</span></a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Datos para fines informativos. No es asesoramiento financiero.</p>
+            <p>© 2026 Portfolio Manager</p>
+        </footer>
+    </div>
+
+    <style>
+        .minerals-nav {
+            margin-top: 30px;
+            padding: 25px;
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border-color);
+        }
+
+        .minerals-nav h4 {
+            margin-bottom: 15px;
+            color: var(--text-secondary);
+        }
+
+        .minerals-nav .minerals-grid {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+    </style>
+</body>
+
+</html>

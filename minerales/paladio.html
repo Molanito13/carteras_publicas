@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔵 Cartera Paladio - Portfolio Manager</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="grid-overlay"></div>
+    </div>
+    <div class="app-container">
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon" style="background: linear-gradient(135deg, #3b82f6, #2563eb);"><svg
+                        viewBox="0 0 100 100" class="chart-icon">
+                        <rect x="10" y="60" width="15" height="30" fill="currentColor" opacity="0.6" />
+                        <rect x="30" y="40" width="15" height="50" fill="currentColor" opacity="0.8" />
+                        <rect x="50" y="25" width="15" height="65" fill="currentColor" />
+                        <rect x="70" y="45" width="15" height="45" fill="currentColor" opacity="0.7" />
+                    </svg></div>
+                <div class="logo-text">
+                    <h1>Portfolio Manager</h1><span class="tagline">Sector Minerales - Paladio</span>
+                </div>
+            </div>
+            <a href="../index.html" class="nav-back">← Volver al inicio</a>
+        </header>
+        <main class="page-content">
+            <section class="page-header">
+                <h2>🔵 Cartera de Paladio</h2>
+                <p>Inversiones en paladio físico y ETFs del sector</p>
+            </section>
+            <section class="portfolio-section active">
+                <div class="portfolio-header">
+                    <div class="portfolio-title"><span class="title-icon">🔵</span>
+                        <h3>ETFs de Paladio</h3>
+                    </div><span class="risk-badge risk-high">Riesgo Alto</span>
+                </div>
+                <div class="data-table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Nº</th>
+                                <th>Activo</th>
+                                <th>ISIN</th>
+                                <th>Tipo</th>
+                                <th>Sector</th>
+                                <th>Asignación</th>
+                                <th>TER</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="col-number">1</td>
+                                <td class="col-name">iShares Physical Palladium ETC</td>
+                                <td class="col-ticker"><span class="ticker-badge palladium">IE00B4556L06</span></td>
+                                <td class="col-type"><span class="type-badge type-etc">ETC</span></td>
+                                <td class="col-sector"><span class="sector-badge">Paladio</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value"><span>6.0%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 60%; background: #3b82f6;"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.24%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">2</td>
+                                <td class="col-name">WisdomTree Physical Palladium</td>
+                                <td class="col-ticker"><span class="ticker-badge palladium">JE00B1VS3002</span></td>
+                                <td class="col-type"><span class="type-badge type-etc">ETC</span></td>
+                                <td class="col-sector"><span class="sector-badge">Paladio</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value"><span>4.0%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 40%; background: #3b82f6;"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.49%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section class="minerals-nav">
+                <h4>Otras carteras:</h4>
+                <div class="minerals-grid"><a href="oro.html"
+                        class="mineral-link gold"><span>🥇</span><span>Oro</span></a><a href="cobre.html"
+                        class="mineral-link copper"><span>🔶</span><span>Cobre</span></a><a href="plata.html"
+                        class="mineral-link silver"><span>⚪</span><span>Plata</span></a><a href="platino.html"
+                        class="mineral-link platinum"><span>⬜</span><span>Platino</span></a><a href="aluminio.html"
+                        class="mineral-link aluminum"><span>🪶</span><span>Aluminio</span></a></div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>© 2026 Portfolio Manager</p>
+        </footer>
+    </div>
+    <style>
+        .minerals-nav {
+            margin-top: 30px;
+            padding: 25px;
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border-color)
+        }
+
+        .minerals-nav h4 {
+            margin-bottom: 15px;
+            color: var(--text-secondary)
+        }
+
+        .minerals-nav .minerals-grid {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap
+        }
+    </style>
+</body>
+
+</html>

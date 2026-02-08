@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carteras de inversión en sector nuclear y uranio">
+    <title>☢️ Sector Nuclear - Portfolio Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <div class="app-container">
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 100 100" class="chart-icon">
+                        <rect x="10" y="60" width="15" height="30" fill="currentColor" opacity="0.6" />
+                        <rect x="30" y="40" width="15" height="50" fill="currentColor" opacity="0.8" />
+                        <rect x="50" y="25" width="15" height="65" fill="currentColor" />
+                        <rect x="70" y="45" width="15" height="45" fill="currentColor" opacity="0.7" />
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <h1>Portfolio Manager</h1>
+                    <span class="tagline">Sector Nuclear</span>
+                </div>
+            </div>
+            <a href="../index.html" class="nav-back">
+                ← Volver al inicio
+            </a>
+        </header>
+
+        <main class="page-content">
+            <section class="page-header">
+                <h2>☢️ Carteras Sector Nuclear</h2>
+                <p>Inversiones en uranio, tecnología nuclear y energía atómica</p>
+            </section>
+
+            <!-- Portfolio Tabs -->
+            <nav class="portfolio-tabs">
+                <button class="portfolio-tab active" data-portfolio="conservadora">
+                    <span class="tab-icon">🛡️</span>
+                    <span>Conservadora</span>
+                </button>
+                <button class="portfolio-tab" data-portfolio="moderada">
+                    <span class="tab-icon">⚖️</span>
+                    <span>Moderada</span>
+                </button>
+                <button class="portfolio-tab" data-portfolio="agresiva">
+                    <span class="tab-icon">🚀</span>
+                    <span>Agresiva</span>
+                </button>
+            </nav>
+
+            <!-- Cartera Conservadora -->
+            <section class="portfolio-section active" id="conservadora">
+                <div class="portfolio-header">
+                    <div class="portfolio-title">
+                        <span class="title-icon">🛡️</span>
+                        <h3>Cartera Conservadora Nuclear</h3>
+                    </div>
+                    <span class="risk-badge risk-low">Bajo Riesgo</span>
+                </div>
+                <div class="data-table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Nº</th>
+                                <th>Activo</th>
+                                <th>ISIN</th>
+                                <th>Tipo</th>
+                                <th>Sector</th>
+                                <th>Asignación</th>
+                                <th>TER/Comisión</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="col-number">1</td>
+                                <td class="col-name">VanEck Uranium UCITS ETF</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">IE000M7V94E1</span></td>
+                                <td class="col-type"><span class="type-badge type-etf">ETF</span></td>
+                                <td class="col-sector"><span class="sector-badge">Nuclear</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>35%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 35%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.85%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">2</td>
+                                <td class="col-name">Cameco Corporation</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">CA13321L1085</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Uranio</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>25%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 25%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">3</td>
+                                <td class="col-name">NAC Kazatomprom JSC</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">US63253R2013</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Uranio</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>20%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 20%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">4</td>
+                                <td class="col-name">Rolls-Royce Holdings PLC</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">GB00B63H8491</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">SMR</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>20%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 20%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Cartera Moderada -->
+            <section class="portfolio-section" id="moderada">
+                <div class="portfolio-header">
+                    <div class="portfolio-title">
+                        <span class="title-icon">⚖️</span>
+                        <h3>Cartera Moderada Nuclear</h3>
+                    </div>
+                    <span class="risk-badge risk-medium">Riesgo Medio</span>
+                </div>
+                <div class="data-table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Nº</th>
+                                <th>Activo</th>
+                                <th>Ticker</th>
+                                <th>Tipo</th>
+                                <th>Sector</th>
+                                <th>Asignación</th>
+                                <th>TER/Comisión</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="col-number">1</td>
+                                <td class="col-name">VanEck Uranium UCITS ETF</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">IE000M7V94E1</span></td>
+                                <td class="col-type"><span class="type-badge type-etf">ETF</span></td>
+                                <td class="col-sector"><span class="sector-badge">Nuclear</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>25%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 25%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.85%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">2</td>
+                                <td class="col-name">Cameco Corporation</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">CA13321L1085</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Uranio</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>20%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 20%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">3</td>
+                                <td class="col-name">NAC Kazatomprom JSC</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">KAUS63253R2013P</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Uranio</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>18%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 18%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">4</td>
+                                <td class="col-name">Energy Fuels Inc</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">CA2926717083</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Uranio</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>12%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 12%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">5</td>
+                                <td class="col-name">BWX Technologies Inc</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">US05605H1005</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Defensa</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>15%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 15%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">6</td>
+                                <td class="col-name">Rolls-Royce Holdings PLC</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">GB00B63H8491</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">SMR</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>10%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 10%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Cartera Agresiva -->
+            <section class="portfolio-section" id="agresiva">
+                <div class="portfolio-header">
+                    <div class="portfolio-title">
+                        <span class="title-icon">🚀</span>
+                        <h3>Cartera Agresiva Nuclear</h3>
+                    </div>
+                    <span class="risk-badge risk-high">Alto Riesgo</span>
+                </div>
+                <div class="data-table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Nº</th>
+                                <th>Activo</th>
+                                <th>Ticker</th>
+                                <th>Tipo</th>
+                                <th>Sector</th>
+                                <th>Asignación</th>
+                                <th>TER/Comisión</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="col-number">1</td>
+                                <td class="col-name">VanEck Uranium UCITS ETF</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">IE000M7V94E1</span></td>
+                                <td class="col-type"><span class="type-badge type-etf">ETF</span></td>
+                                <td class="col-sector"><span class="sector-badge">Nuclear</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>20%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 20%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.85%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">2</td>
+                                <td class="col-name">Cameco Corporation</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">CA13321L1085</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Uranio</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>18%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 18%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">3</td>
+                                <td class="col-name">NAC Kazatomprom JSC</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">US63253R2013</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Uranio</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>15%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 15%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">4</td>
+                                <td class="col-name">Energy Fuels Inc</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">CA2926717083</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Uranio</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>15%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 15%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">5</td>
+                                <td class="col-name">Uranium Energy Corp</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">US9168961038</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Uranio</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>10%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 10%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">6</td>
+                                <td class="col-name">Denison Mines Corp</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">CA2483561072</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Uranio</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>8%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 8%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">7</td>
+                                <td class="col-name">BWX Technologies Inc</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">US05605H1005</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">Defensa</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>8%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 8%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="col-number">8</td>
+                                <td class="col-name">Rolls-Royce Holdings PLC</td>
+                                <td class="col-ticker"><span class="ticker-badge nuclear">GB00B63H8491</span></td>
+                                <td class="col-type"><span class="type-badge type-stock">Stock</span></td>
+                                <td class="col-sector"><span class="sector-badge">SMR</span></td>
+                                <td class="col-asignacion">
+                                    <div class="asignacion-value">
+                                        <span>6%</span>
+                                        <div class="asignacion-bar">
+                                            <div class="asignacion-fill" style="width: 6%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="col-ter">0.0%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Datos para fines informativos. No es asesoramiento financiero.</p>
+            <p>© 2026 Portfolio Manager</p>
+        </footer>
+    </div>
+
+    <script>
+        document.querySelectorAll('.portfolio-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.portfolio-tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.portfolio-section').forEach(s => s.classList.remove('active'));
+                tab.classList.add('active');
+                const portfolioId = tab.dataset.portfolio;
+                document.getElementById(portfolioId).classList.add('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

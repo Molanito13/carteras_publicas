@@ -1,0 +1,31 @@
+{
+    "metadata": {
+        "description": "Historial de precios para tracking anual",
+        "startDate": "2026-01-01",
+        "frequency": "daily"
+    },
+    "priceHistory": {
+        "2026-01-01": {
+            "ES10Y": 97.85,
+            "DE10Y": 96.50,
+            "USIG": 98.25,
+            "CORP-IG": 97.80,
+            "FER.MC": 37.25,
+            "RIO": 63.80,
+            "RR.L": 5.28,
+            "KAP": 41.50,
+            "ACS.MC": 40.15,
+            "CCJ": 51.20,
+            "UUUU": 6.25,
+            "ALB": 95.40,
+            "SQM": 44.20,
+            "BWXT": 108.75,
+            "ICLN": 13.85,
+            "NUCL": 53.96
+        }
+    },
+    "notes": {
+        "2026-01-01": "Precio de apertura - Inicio del tracking anual",
+        "2026-01-20": "Actualización de precios - 20 días de trading"
+    }
+}
