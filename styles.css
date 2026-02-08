@@ -227,9 +227,10 @@ a {
 /* ===== Category Grid ===== */
 .category-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin-bottom: 40px;
+    align-items: stretch;
 }
 
 .category-card {
@@ -268,7 +269,7 @@ a {
 }
 
 .wip-card {
-    /* Same width as other cards */
+    grid-column: 1 / -1;
 }
 
 .category-card:hover {
