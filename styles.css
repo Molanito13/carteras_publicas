@@ -233,6 +233,10 @@ a {
     align-items: stretch;
 }
 
+.rare-earth-card::before {
+    background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+}
+
 .category-card {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
@@ -266,10 +270,6 @@ a {
 
 .wip-card::before {
     background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
-}
-
-.wip-card {
-    grid-column: 1 / -1;
 }
 
 .category-card:hover {
@@ -418,6 +418,12 @@ a {
     background: rgba(163, 163, 163, 0.15);
     border-color: #a3a3a3;
     color: #e5e5e5;
+}
+
+.mineral-link.rare-earth:hover {
+    background: rgba(139, 92, 246, 0.15);
+    border-color: #8b5cf6;
+    color: #a78bfa;
 }
 
 .mineral-icon {
@@ -725,6 +731,10 @@ a {
 
 .ticker-badge.nuclear {
     background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+.ticker-badge.rare-earth {
+    background: linear-gradient(135deg, #8b5cf6, #6d28d9);
 }
 
 
